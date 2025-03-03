@@ -9,5 +9,6 @@ public class Main {
         Patterns.patternFive();
         Patterns.patternSix();
         Patterns.patternSeven();
+        Patterns.patternEight();
         }
 }
