@@ -20,5 +20,6 @@ public class Main {
         Patterns.patternSisxteen();
         Patterns.patternSeventeen();
         Patterns.patternEighteen();
+        Patterns.patternNineteen();
         }
 }
