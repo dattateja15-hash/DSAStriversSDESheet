@@ -207,5 +207,43 @@ public class Patterns {
         }
     }
 
+    public static void patternSeventeen(){
+        for(int i = 0;i<5;i++){
+
+
+
+            for(int j = 0;j<5-i-1;j++){
+                System.out.print(" ");
+            }
+            char c = 'A';
+            int breakpoint = (2*i+1) / 2;
+            for(int j = 1;j<=2*i+1;j++){
+                System.out.print(c);
+                if(j<=breakpoint){
+                    c++;
+                }
+                else{
+                    c--;
+                }
+
+            }
+
+            for(int j = 0;j<5-i-1;j++){
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void patternEighteen(){
+        for(int i = 1;i<=5;i++){
+            char a = 'E';
+            for(int j = 1;j<=i;j++){
+                System.out.print((char)(a-i+j));
+            }
+            System.out.println();
+        }
+    }
+
 
 }
