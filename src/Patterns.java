@@ -174,4 +174,38 @@ public class Patterns {
             System.out.println();
         }
     }
+
+    public static void patternFourteen(){
+
+        for(int i = 1;i<=5;i++){
+            char a = 'A';
+            for(int j = 1;j<=i;j++){
+                System.out.print(a++);
+            }
+            System.out.println();
+        }
+    }
+
+    public static void patternFifteen(){
+
+        for(int i = 0;i<=5;i++){
+            char a = 'A';
+            for(int j = 1;j<=5-i;j++){
+                System.out.print(a++);
+            }
+            System.out.println();
+        }
+    }
+
+    public static void patternSisxteen(){
+        for(int i = 1;i<=5;i++){
+            for(int j = 1;j<=i;j++){
+                char a = (char)('A'+i-1);
+                System.out.print(a);
+            }
+            System.out.println();
+        }
+    }
+
+
 }

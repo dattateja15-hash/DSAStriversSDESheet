@@ -15,5 +15,8 @@ public class Main {
         Patterns.patternEleven();
         Patterns.patternTwelve();
         Patterns.patternThirteen();
+        Patterns.patternFourteen();
+        Patterns.patternFifteen();
+        Patterns.patternSisxteen();
         }
 }
