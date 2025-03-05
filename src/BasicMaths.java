@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
 public class BasicMaths {
 
     public static int countNumbers(int n){
@@ -75,5 +78,18 @@ public class BasicMaths {
             n = n/10;
         }
         return sum == store;
+    }
+
+    public static ArrayList<Integer> findDivisors(int n){
+        ArrayList<Integer> list = new ArrayList<>();
+        for(int i = 1;i<Math.sqrt(n);i++){
+            if(n%i==0){
+                list.add(i);
+                if(n%i!=i)
+                    list.add(n/i);
+            }
+        }
+        Collections.sort(list);
+        return list;
     }
 }

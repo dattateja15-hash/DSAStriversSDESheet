@@ -11,5 +11,6 @@ public class Main {
         System.out.println(BasicMaths.claculateGCDBetter(9,12));
         System.out.println(BasicMaths.calculateGCDOptimal(9,12));
         System.out.println(BasicMaths.checkArmstrong(371));
+        System.out.println(BasicMaths.findDivisors(12));
         }
 }
