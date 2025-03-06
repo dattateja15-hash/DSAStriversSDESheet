@@ -114,6 +114,7 @@ public class BasicRecursion {
             slast = last;
             last = current;
             System.out.print(current+" ");
+
         }
     }
 }
