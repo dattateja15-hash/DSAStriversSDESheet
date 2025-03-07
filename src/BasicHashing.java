@@ -1,6 +1,15 @@
+import java.util.*;
 public class BasicHashing {
-    //Pres-storing and fetching
-
-    //Division Method = {2,5,16,28,139} divide by % of size of array (Linear Chaining)
-    //
+    public static void frequency(int[] arr, int n){
+        Map<Integer,Integer> map = new HashMap<>();
+        for(int i = 0;i<n;i++){
+            if(!map.containsKey(arr[i])){
+                map.put(arr[i],1);
+            }
+            else{
+                map.put(arr[i],map.get(arr[i])+1);
+            }
+        }
+        System.out.println(map);
+    }
 }
