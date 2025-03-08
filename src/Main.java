@@ -2,8 +2,7 @@
 
 public class Main {
     public static void main(String[] args) {
-        BasicHashing.highestAndLowestFrequencyKeys(new int[]{10,5,10,15,10,5},6);
-        System.out.println(BasicHashing.maxFrequnecy(new int[]{3,9,6},2));
+        Sorting.selectionSort(new int[]{5,3,2,1,4});
     }
 
 }
